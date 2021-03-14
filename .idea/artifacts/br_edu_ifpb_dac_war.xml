@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="br.edu.ifpb.dac:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>br.edu.ifpb.dac</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="appslfj.war">
+      <element id="artifact" artifact-name="br.edu.ifpb.dac:war exploded" />
+    </root>
+  </artifact>
+</component>
