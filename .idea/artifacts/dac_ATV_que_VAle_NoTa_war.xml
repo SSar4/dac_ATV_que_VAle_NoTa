@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dac_ATV_que_VAle_NoTa:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>dac_ATV_que_VAle_NoTa</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="appslfj.war">
+      <element id="artifact" artifact-name="dac_ATV_que_VAle_NoTa:war exploded" />
+    </root>
+  </artifact>
+</component>

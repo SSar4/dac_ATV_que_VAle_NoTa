@@ -1,4 +1,4 @@
-package br.edu.ifpb.dac.entidade;
+package br.edu.ifpb.dac.identidade;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -20,6 +20,10 @@ public class Banda {
 		super();
 		this.localDeOrigem = localDeOrigem;
 		this.nomeFantasia = nomeFantasia;
+	}
+
+	public static Banda fake(){
+		return new Bannda("fake");
 	}
 	
 	public void AddIntegrante(Integrante i) {

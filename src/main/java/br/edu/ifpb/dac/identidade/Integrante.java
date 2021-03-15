@@ -1,4 +1,5 @@
-package br.edu.ifpb.dac.entidade;
+package br.edu.ifpb.dac.identidade;
+
 
 import java.time.LocalDate;
 
@@ -25,8 +26,12 @@ public class Integrante {
 		this.dataDeNascimento = dataDeNascimento;
 	}
 
-	public static Integrante off(int id, String nome, LocalDate dataDeNascimento) {
+	public static Integrante of(int id, String nome, LocalDate dataDeNascimento) {
 		return new Integrante(id,nome,dataDeNascimento);
+	}
+
+	public static Integrante fake(){
+		return new Integrante("fake");
 	}
 
 	public int getId() {

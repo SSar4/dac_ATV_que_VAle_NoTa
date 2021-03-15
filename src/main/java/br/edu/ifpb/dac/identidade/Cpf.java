@@ -1,4 +1,4 @@
-package br.edu.ifpb.dac.entidade;
+package br.edu.ifpb.dac.identidade;
 
 public class Cpf {
 
