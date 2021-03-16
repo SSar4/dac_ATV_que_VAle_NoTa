@@ -1,12 +1,17 @@
 package br.edu.ifpb.dac.entidade;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-public class Banda {
+public class Banda implements Serializable{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int id;
 	private String localDeOrigem;
 	private String nomeFantasia;
